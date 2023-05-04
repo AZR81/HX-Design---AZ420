@@ -10,7 +10,8 @@ iterator.py:
 -Saves the results of the calculations in a text file in the Output folder for future processing. The folder is needed for this file to run.
   
 constants.py:  
--Stores all the data and the functions needed for processing it.
+-Stores all the data and the functions needed for processing it.  
+-ASME pipe data is read from ASME_pipe_sizes_1.txt.
   
 image_to_poly.py  
 -Loads grayscale images and fits a polynomial or returns the scaled data so it can be used for linear interpolation.
